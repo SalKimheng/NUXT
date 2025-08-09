@@ -1,0 +1,36 @@
+body{
+  background-color: white;
+}
+.custom-gradient {
+    background: linear-gradient(to top right, #F8E889, #E4B764);
+}
+.custom-text-black{
+  background: linear-gradient(to bottom, #5C5C5C, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.custom-text-gold {
+  background: linear-gradient(to bottom, #F8E889, #E4B764);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.custom-bg-dropdown{
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+.custom-bg-btn{
+  background: linear-gradient(to top right, #5C5C5C, #000000);
+}
+.custom-bg-hover:hover{
+  color: #E4B764;
+  background: linear-gradient(to top right, #5C5C5C, #000000);
+  transition: all 0.15s
+}
+
